@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+body{
+    min-width: 1400px;
+}
+section{
+    width: 100%;
+    height: 659px;
+}
+
+/* header */
+header{
+    background-color: white;
+    height: 93px;
+    padding: 30px 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+header ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.header_right{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.header_right a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 1px solid #000080;
+    padding: 13px 30px;
+    border-radius: 4px;
+
+}
+.primaryBtn{
+    background-color: #000080;
+    color: white !important;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* sec_one */
+.sec_one{
+    position: relative;
+    background: url('img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec_one_content{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.sec_one h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sec_one h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.sec_one a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    background-color: #000080;
+    padding: 16px 0;
+    border-radius: 20px;
+    width: 427px;
+    height: 55px;
+    text-align: center;
+}
+
+/* sec_two */
+.sec_two{
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+.sec_two h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000080;
+    margin-bottom: 20px;
+}
+.sec_two h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.sec_two_boxs{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.sec_two_box{
+    display: block;
+    text-align: left;
+    border: 2px solid hsl(0, 0%, 75%);
+    box-shadow: 0 0 5px hsl(0, 0%, 95%);
+    border-radius: 9px;
+    padding: 0 35px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.sec_two_box i{
+    font-size: 30px;
+    color: #000080;
+}
+.sec_two_box h5{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.sec_two_box p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    color: hsl(0, 0%, 35%);
+}
+.sec_two_box a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-decoration: none;
+    color: #000080;
+    display: flex;
+    gap: 5px;
+}
+.sec_two_box a i{
+    font-size: 25px;
+}
+
+/* sec_three */
+.sec_three{
+    position: relative;
+    background: url('img/banner2.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec_three_content{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec_three_content h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.sec_three_content h6{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.sec_three_content a{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    width: 527px;
+    text-align: center;
+    background-color: #000080;
+    border-radius: 20px;
+    padding: 16px 0;
+}
+.sec_three_boxs{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.sec_three_box{
+    width: 235px;
+    height: 140px;
+    border-radius: 18px;
+    border: 2px solid white;
+    background-color: #D9F2FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+.sec_three_box h5{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.sec_three_box i{
+    font-size: 24px;
+}
+
+/* sec_four */
+.sec_four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec_four_container{
+    width: 1290px;
+    height: 575px;
+    border: 2px solid hsl(0, 0%, 75%);
+    box-shadow: 0 0 5px hsl(0, 0%, 95%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.sec_four_container h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.sec_four_boxs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 0 18rem;
+    justify-content: center;
+}
+.sec_four_box{
+    flex: 0 0 calc(33.33% - 3rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec_four_box h5{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.sec_four_box i{
+    font-size: 70px;
+    text-align: center;
+}
+
+/* sec_five */
+.sec_five{
+    position: relative;
+    background: url('img/location.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec_five_content{
+    width: 640px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec_five_content h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.sec_five_content p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.sec_five_content a{
+    text-decoration: none;
+    color: white;
+    background-color: #000080;
+    border-radius: 20px;
+    padding: 16px 0;
+    width: 427px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
